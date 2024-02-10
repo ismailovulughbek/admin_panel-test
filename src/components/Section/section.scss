@@ -1,0 +1,101 @@
+.section-info {
+    margin: 56px 0 0 260px ;
+    height: 80px;
+    background: #FFF;
+    padding: 15px 0;
+
+    &_div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-setting {
+            background: none;
+            display: flex;
+            align-items: center;
+            column-gap: 5px;
+
+            & span {
+                color: #262626;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+
+        &-input {
+            width: 350px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #D4D4D4;
+            background: #FFF;
+
+            & input {
+                color: #000;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            & img {
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.section-about {
+    margin: 30px 0 0 260px;
+    margin-top: 30px;
+
+    & .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 20px;
+    }
+
+    &_card {
+        max-width: 265px;
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: #FFF;
+
+        & img {
+            width: 45px;
+            height: 45px;
+        }
+
+        &-price {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+
+            & p {
+                color: #262626;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            & span {
+                color:  #262626;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+    }
+}

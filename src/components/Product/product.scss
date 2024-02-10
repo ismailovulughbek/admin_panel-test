@@ -1,0 +1,121 @@
+.product {
+    margin-top: 30px;
+    margin-left: 260px;
+
+    &-sec {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+        background: #FFF;
+
+        &_title {
+            color: #262626;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 30px;
+        }
+
+        &_notilla {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            padding: 7px;
+            border-radius: 5px;
+            border: 1px solid #F87171;
+            background: #FEF2F2;
+
+            & img {
+                width: 25px;
+                height: 25px;
+            }
+
+            & p {
+                color: #7F1D1D;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+
+        &_card {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            border: 1px solid #D4D4D4;
+
+            & span {
+                padding: 10px 15px;
+            }
+
+            &-type {
+                background: #D4D4D4;
+
+                & span {
+                    color: #262626;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+
+            &-items {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                &_item {
+                    & span {
+                        color: #262626;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                    
+                    & .numb{
+                        color: #7F1D1D;
+                        font-weight: 600;
+                    }
+
+                    &:hover {
+                        background: #F5F5F5;
+                    }
+
+                    &-btns {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 10px;
+
+                        & .btn {
+                            display: flex;
+                            padding: 5px 10px;
+                            align-items: center;
+                            gap: 5px;
+                            border-radius: 3px;
+                            color: #FFF;
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+
+                        & .edit {
+                            background: #1D4ED8;
+                        }
+                        & .delete {
+                            background: #D97706;
+                        }
+
+                    }
+
+
+                }
+            }
+
+            & .grid-temp {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, 20%);
+            }
+        }
+    }
+
+}
